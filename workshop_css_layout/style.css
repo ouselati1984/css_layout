@@ -1,0 +1,330 @@
+body{
+    font-weight: 400;
+    font-family: Roboto;
+    color: #00b39b;
+}
+.first_div{
+    max-width: 1048px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar.navbar-expand-lg.navbar-light{
+    background-color: rgba(255, 255, 255, 0.98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+
+}
+.container-fluid{
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#navbarSupportedContent{
+    width: auto;
+}
+#a_nav{
+    padding: 8px;
+    font-weight: bolder;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    font-weight: 400;
+    font-family: Roboto;
+    color: #ababab;
+    border:0;
+	box-shadow:0 20px 40px 0 rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+    .dropdown-menu li a:hover {
+        color: #00b39b;
+    }
+    .nav-item #a_nav a:hover {
+        color: #00b39b;
+    }
+.first_section h1{
+    font-size: 1.75rem;
+    margin: 1em 0;
+    font-family: Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.first_section{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.Para_1 p{
+    padding: 3%;
+    text-align: left;
+    line-height: 1.75;
+    min-width: 200px;
+    font-weight: bold;
+     color: #030000;
+     
+
+}
+.second_section{
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.second_section .services{
+    width: auto;
+    background-color: blue;
+    margin: 1%;
+    color: white;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: inherit;
+     
+}
+
+#service1{
+    background-color: #00ccb1;
+    
+}
+#service2{
+    background-color:#3d83df;
+}
+#service3{
+    background-color:#1b2734;
+}
+.second_section .services h1 {
+    font-size: 1.625em;
+    font-weight: bolder;
+    margin: 0.3em 0;
+}
+.second_section .services h2{
+    font-size: 1.5em;
+    font-family: Work Sans;
+    line-height: 1.2;
+    margin: 0;
+}
+#style-select1,#style-select2,#style-select3,#style-select4{
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin-bottom: 40px ;
+    outline: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
+#style-select3{
+    margin-bottom: 20px ;
+}
+#style-select1 option,#style-select2 option,#style-select3 option,#style-select4 option{
+    color: black;
+}
+.third_section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.third_section h1{
+	float:left;
+	width:33%;
+	font-size:1.625em;
+	margin:.25em 0 .35em;
+	padding-right:1em
+}
+.brands_logo{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    font-size:0;
+    width:67%;
+    list-style:none
+}
+.brands_logo li{
+    font-size:1rem;
+    display:inline-block;
+    width:160px;
+    padding:5px 0
+}
+.brands_logo .tuotempo{
+    width:175px;
+}
+.brands_logo .tuotempo img{
+    height:16px;
+}
+.brands_logo .logo_class{
+    height:16px;
+    width: 16px;
+}
+.brands_logo li a{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    
+}
+.brands_logo li a:hover{
+    color: #00b39b;
+}
+.info{
+    background: #e5faf8;
+    background-image: url("logo3.svg");
+   
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info .info_div2{
+    margin-top: 25px;
+    padding: 30px;
+}
+.info .info_div2 h2{
+    font-weight: bold;
+}
+.info .info_div2 p{
+    color: black;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.info .info_all_div{
+    display: flex;
+}
+.info_all_div .info_div3_4, .info_all_div .info_div5_6{
+    width: 45%;
+}
+.info_all_div .info_div3_4{
+    margin-top: 25px;
+}
+
+.info .info_div3, .info .info_div4,.info .info_div5, .info .info_div6{
+    background-color: white;
+    border-radius: 5px;
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: .8125em;
+}
+.info .info_div3 img, .info .info_div4 img,.info .info_div5 img, .info .info_div6 img{
+    padding: 15px;
+}
+.info .info_div3 p, .info .info_div4 p,.info .info_div5 p, .info .info_div6 p{
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.country .country_div1{
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.country .country_div1 h2{
+    padding: 20px;
+    font-weight: bold;
+}
+.country .country_div1 p{
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+.country_div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.country_div2 .country_card{
+    border: solid 1px #a4ccff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.country_div2 .country_card:hover{
+    cursor: pointer;
+    box-shadow:0 20px 40px 0 rgba(0,0,0,.3);
+}
+.country_div2 .country_card .card_bottom{
+    color: #747474;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 1em;
+}
+.country_div2 .country_card .card_bottom a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #3d83df;
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7px;
+}
+.country_div2 .country_card .card_bottom a:hover{
+    background-color: #1b6cd6;
+}
+
+
+
+.footer{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 750px){
+    .Para_1{
+        display: flex;
+    }
+    .second_section{
+        display: flex;
+    }
+    .second_section .services{
+        width: 33.33%;
+    }
+    .info .info_div1{
+        display: flex;
+        max-width: 1048px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info{
+        background: #e5faf8;
+        background-image: url("logo3.svg");
+        background-repeat: no-repeat;
+        background-size: 550px 550px;
+        background-position: 10% 950%;
+    }
+    .country{
+        max-width: 1048px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+}
